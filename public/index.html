@@ -99,28 +99,30 @@
 
 <body onload="init();">
   <div class="info">
-    <h1>File upload and download</h1>
+    <h1>RB</h1>
+    <h1>Ficheiros: upload e download</h1>
 
     <div id="upload">
-      <h3>Upload files</h3>
+      <h3>Upload de ficheiros</h3>
       <form id="uploadForm">
-        <label for="files">Select files:</label>
+        <label for="files">Escolha os ficheiros:</label>
         <input type="file" id="files" name="files" multiple /><br /><br />
-        <label for="note">Note:</label>
-        <input type="text" name="note" id="note" placeholder="Note about the files" />
+        <label for="note">Nota:</label>
+        <input type="text" name="note" id="note" placeholder="Descrição dos ficheiros" />
         <br /><br />
         <input type="submit" />
       </form>
     </div>
 
     <div id="download">
-      <h3>Download files</h3>
+      <h3>Download de ficheiros</h3>
       <ul id="fileList"></ul>
       <button onclick="fetchFiles()">Refresh</button>
     </div>
 
     <h3>OpenAPI spec: <a href="/openapi.json">/openapi.json</a></h3>
     <h3>API Explorer: <a href="/explorer">/explorer</a></h3>
+    <h3>Rui Badana @ 2021</h3>
   </div>
 
   <footer class="power">
